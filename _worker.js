@@ -1,8 +1,8 @@
 /**
  * https://github.com/amirwolf5122/telegram-bot-cloudflare
 */
-const TOKEN = '***' // از ربات  @BotFather  بگیر
-const ADMIN = 5679710243 //ایدی عددی شما
+const TOKEN = '7081652792:AAHL1mJ5_Cvm2wKUxkpaMw1DQoJVBr8sp-s' // از ربات  @BotFather  بگیر
+const ADMIN = 6384561013 //ایدی عددی شما
 addEventListener('fetch', event => {
   const url = new URL(event.request.url)
   if (url.pathname === '/endpoint') {
